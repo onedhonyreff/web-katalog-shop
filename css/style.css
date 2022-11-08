@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-link{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.jumbo-tron{
+    width: 100%;
+    height: 500px;
+    background: url("../img/component/jumbo_tron.jpg");
+    background-size: cover;
+}
+
+.jumbo-tron-content{
+    width: 50%;
+}
+
+.jumbo-tron-content img{
+    width: 300px;
+}
+
+.jumbo-tron-content p{
+    font-family: 'Bangers', cursive;
+    font-size: 2.6em;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #EEEEEE;
+}
+
+.shading{
+    background: #161616;
+    color: white;
+    padding: 0px 15px;
+}
+
+.strip{
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.strip span{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #888888;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.catalog-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.catalog-table a{
+    text-decoration: none !important;
+}
+
+.catalog-card, .selected-catalog{
+    width: 150px;
+}
+
+.selected-catalog{
+    height: 5px;
+}
+
+.catalog-card .img-container{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.catalog-card p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
+
+.catalog-card:hover{
+    background: #90dfff!important;
+    transition-duration: 0.3s;
+}
+
+.product-card{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tail-photo{
+    width: 100%;
+    height: 150px; 
+    overflow: hidden;
+}
+
+.tail-photo img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tail-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.no-data{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+}
+
+.footer-content{
+    width: 75%;
+}
+
+.medsos-label, .copyright, .contact{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+}
+
+.product-detail{
+    width: 75%;
+}
+
+.product-photo-frame{
+    height: 400px; 
+    overflow: hidden;
+}
+
+.product-photo-frame img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.image-preview-option{
+    width: 50px;
+    height: 50px; 
+    overflow: hidden;
+}
+
+.image-preview-option img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.product-name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8em;
+    line-height: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.price-detail, .product-description, .manage-divider{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.manage-catalog-card:hover{
+    background-color: #90dfff;
+    transition-duration: 0.5s;
+}
+
+.manage-catalog-card .manage-img-container{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.manage-img-container img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.manage-catalog-card p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7em;
+    line-height: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
+
+.data-product-column{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.data-product-header{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
+
+.body-add-update-product > *{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold
+}
+
+.add_product_image_container_preview{
+    width: 16.6%;
+    height: 160px;
+    overflow: hidden;
+}
+
+.add_product_image_container_preview img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width:990px) {
+    .nav-active-indicator{
+        display: none;
+    }
+
+    .jumbo-tron{
+        height: 250px;
+    }
+
+    .jumbo-tron-content img{
+        width: 150px;
+    }
+
+    .jumbo-tron-content p{
+        font-size: 1.5em;
+    }
+
+    .strip span{
+        font-size: 0.8em;
+        letter-spacing: 0.15em;
+    }
+
+    .catalog-title{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .catalog-card, .selected-catalog{
+        width: 100px;
+    }
+    
+    .catalog-card .img-container{
+        width: 50px;
+        height: 50px;
+    }
+
+    .catalog-card p{
+        margin-top: 7px;
+        font-size: 0.8em;
+    }
+
+    .no-data{
+        font-size: 1.5em;
+    }
+
+    .footer-content{
+        width: 88%;
+    }
+
+    .product-detail{
+        width: 85%;
+    }
+
+    .product-photo-frame{
+        height: 350px;
+    }
+
+    .add_product_image_container_preview{
+        height: 90px;
+    }
+
+    .data-product-column, .data-product-header{
+        font-size: 0.75em;
+    }
+}
+@media only screen and (max-width:575px) {
+    .nav-active-indicator{
+        display: none;
+    }
+
+    .jumbo-tron{
+        height: 180px;
+    }
+
+    .jumbo-tron-content img{
+        width: 80px;
+    }
+
+    .jumbo-tron-content p{
+        font-size: 1em;
+    }
+
+    .strip span{
+        font-size: 0.6em;
+        letter-spacing: 0.1em;
+    }
+
+    .catalog-title{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .catalog-card, .selected-catalog{
+        width: 60px;
+    }
+    
+    .catalog-card .img-container{
+        width: 30px;
+        height: 30px;
+    }
+
+    .catalog-card p{
+        margin-top: 5px;
+        font-size: 0.6em;
+    }
+
+    .no-data{
+        font-size: 1em;
+    }
+
+    .footer-content{
+        width: 100%;
+    }
+
+    .product-detail{
+        width: 100%;
+    }
+
+    .product-photo-frame{
+        height: 300px;
+    }
+
+    .add_product_image_container_preview{
+        height: 60px;
+    }
+
+    .data-product-column, .data-product-header{
+        font-size: 0.5em;
+    }
+}
